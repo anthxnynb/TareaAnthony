@@ -1,0 +1,19 @@
+Algoritmo Precio_Final_Descuento_IVA
+
+    Definir precioOriginal, descuento, precioDescuento, iva, precioFinal Como Real
+
+    Escribir "Ingrese el precio original:"
+    Leer precioOriginal
+
+    descuento <- precioOriginal * 0.20
+
+    precioDescuento <- precioOriginal - descuento
+
+    iva <- precioDescuento * 0.15
+
+    precioFinal <- precioDescuento + iva
+
+    Escribir "El precio con descuento es: ", precioDescuento
+    Escribir "El precio final con IVA incluido es: ", precioFinal
+
+FinAlgoritmo
